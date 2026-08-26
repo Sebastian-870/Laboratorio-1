@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo-2, .titulo-1{
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: 600;
+    color: #fff;
+}
+.titulo-1{
+    font-size: 2.2em;
+    margin-top: -15px;
+
+}
+.parrafo{
+       font-family: 'Poppins';
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 1em;
+    color: #fff;
+
+}
+.subtitulo{
+    font-size: 1.3em;
+    color: #fff;
+}
+body{
+    background-color: red;
+}
