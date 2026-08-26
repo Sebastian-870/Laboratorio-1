@@ -1,0 +1,74 @@
+
+/* VARIABLES CSS */
+/* El root es el selector padre */
+:root{
+   --colorPrimario: #EC111A; 
+   --colorSecundario: #082ba5;
+   --colorTerceario: #007BDF;
+   --colorTitulos: #282D31;
+   --colorParrafos: #53575A;
+   --colorSombras: #282D31;
+}
+/* SELECTOR UNIVERSAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo-2, .titulo-1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: 600;
+}
+.titulo-1{
+    color: var(--colorPrimario);
+    font-size: 2.2em;
+    margin-top: -15px;
+}
+.titulo-4, .titulo-3{
+     font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: 600;
+}
+.titulo-3{
+    color: var(--colorPrimario);
+     margin-top: -15px;
+}
+.parrafo{
+    font-family: 'Poppins';
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 1em;
+}
+.boton{
+    background-color: var(--colorPrimario);
+    color: #fff;
+    padding: 1em;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 1em;
+    transition: background-color .5s ease-in-out;
+}
+.boton:hover{
+    background-color: var(--colorSecundario);
+    color: #fff;
+
+}
+.container{
+    margin-top: 5em;
+}
+.iconoWS{
+    position: fixed;
+    left: 1em;
+    bottom: 1em;
+    font-size: 3em;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    padding: 3em;
+    box-shadow: 0px 0px 6px #000;
+}
